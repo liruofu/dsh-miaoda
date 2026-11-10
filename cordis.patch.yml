@@ -1,0 +1,8 @@
+# Bundle layer contributed by dsh-miaoda.
+#
+# It inserts exactly one loader row: the plugin itself. All behaviour is
+# configured through that row's `config` (see README), so a profile can
+# override anything by adding a patch entry that targets `id: miaoda`.
+- insert:
+    - id: miaoda
+      name: dsh-miaoda

@@ -222,3 +222,9 @@ npm test        # 官方合同自测（桩 cordis 上下文，不需要启动 DS
 ## License
 
 MIT
+
+## 来源与致谢
+
+- `skills/miaoda/references/` 下的 30 份 `lark-apps-*.md` 是飞书官方 Agent Skill `lark-apps` 的文档副本，通过 `lark-cli skills read lark-apps` 离线导出，仅作随包参考；版权归飞书（Lark）所有。若官方文档更新，用 `lark-cli skills read lark-apps` 重新导出即可。
+- 妙搭（Miaoda）的平台能力全部来自 `lark-cli` 的 `apps` 命令域与本机 git，本插件不访问任何私有接口、不保存任何凭据（登录态由 `lark-cli` 自己管理）。
+

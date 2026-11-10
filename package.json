@@ -3,6 +3,14 @@
   "version": "0.3.17",
   "description": "Feishu Miaoda (妙搭) app development inside DeepSeek Harness: local dev server, one-command publish, and pulling the online version — you only write code.",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liruofu/dsh-miaoda.git"
+  },
+  "homepage": "https://github.com/liruofu/dsh-miaoda#readme",
+  "bugs": {
+    "url": "https://github.com/liruofu/dsh-miaoda/issues"
+  },
   "main": "lib/index.js",
   "exports": {
     ".": "./lib/index.js",
